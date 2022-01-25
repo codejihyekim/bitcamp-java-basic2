@@ -19,7 +19,7 @@ public class CalcDemo {
         System.out.println(CalcApp.webSite);
         System.out.println(" 첫번째 숫자 ");
         int num1 = scanner.nextInt();
-        System.out.println(" 연산자 ");
+        System.out.println(" 연산자 + - * / ");
         String opcode = scanner.next();
         System.out.println(" 두번째 숫자 ");
         int num2 = scanner.nextInt();
