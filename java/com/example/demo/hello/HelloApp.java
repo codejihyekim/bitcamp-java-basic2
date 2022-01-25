@@ -1,5 +1,15 @@
 package com.example.demo.hello;
-
+/**
+ * packageName: com.example.demo.calc
+ * fileName        : HelloApp.java
+ * author          : codejihyekim
+ * date            : 2022-01-24
+ * desc            : id, pw, name을 받아서 리턴하는 앱
+ * ================================
+ * DATE              AUTHOR        NOTE
+ * ================================
+ * 2022-01-24        codejihyekim      최초 생성
+ */
 public class HelloApp {
     static String webSite = "Naver";
     String id;

@@ -1,5 +1,15 @@
 package com.example.demo.hi;
-
+/**
+ * packageName: com.example.demo.calc
+ * fileName        : HiDemo.java
+ * author          : codejihyekim
+ * date            : 2022-01-24
+ * desc            : hi앱을 실행하는 컨트롤러
+ * ================================
+ * DATE              AUTHOR        NOTE
+ * ================================
+ * 2022-01-24        codejihyekim      최초 생성
+ */
 import java.util.Scanner;
 
 public class HiDemo {
