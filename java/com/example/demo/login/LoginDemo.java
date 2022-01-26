@@ -16,7 +16,7 @@ public class LoginDemo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         LoginApp loginApp = new LoginApp();
-        System.out.println(LoginApp.webSite);
+        System.out.println(LoginApp.LOGIN_TITLE);
         System.out.println("ID: ");
         String id = scanner.next();
         System.out.println("PW: " );
