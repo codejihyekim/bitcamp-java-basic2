@@ -31,28 +31,28 @@ package com.example.demo.grade;
  */
 public class GradeApp {
     public static String GRADE_TITLE = "성적표";
-    public String name;
-    public int kor;
-    public int eng;
-    public int math;
+    private String name;
+    private int kor;
+    private int eng;
+    private int math;
 
-    public String getGrade(String name, int kor, int eng, int math) {
+    public String getgrade(String name, int kor, int eng, int mate) {
         this.name = name;
         this.kor = kor;
         this.eng = eng;
-        this.math = math;
-        int total = 0;
-        int avg = 0;
-        String pass = (avg >= 60) ?  "합격" : "불합격";
+        this.math = mate;
+        int total = kor + eng + math;
+        int avg = total / 3;
+        String pass = (avg >= 60) ? "합격" : "불합격";
         String grade = String.format(" * ########## %s ########\n" +
-                "이름: %s\n" +
-                "> 국어: %d점 \n" +
-                "> 영어: %d점 \n" +
-                "> 수학: %d점\n" +
-                "총점: %d점 \n" +
-                "평균(정수): %d점\n" +
-                "합격여부: %s\n" +
-                "#######################",GRADE_TITLE, name, kor, eng, total, avg, pass);
+                " * 이름: %s\n" +
+                " * > 국어: %d점 \n" +
+                " * > 영어: %d점 \n" +
+                " * > 수학: %d점\n" +
+                " * 총점: %d점 \n" +
+                " * 평균(정수): %d점\n" +
+                " * 합격여부: %s\n" +
+                " * #######################",GRADE_TITLE,name,kor,eng,mate,total,avg,pass);
         return grade;
     }
 }
