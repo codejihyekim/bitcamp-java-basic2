@@ -14,7 +14,7 @@ import java.util.Locale;
  * 2022-01-24        codejihyekim      최초 생성
  */
 public class LoginApp {
-    static String LOGIN_TITLE = "로그인";
+    public static String LOGIN_TITLE = "로그인";
     String id;
     String pw;
     String name;

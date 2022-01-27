@@ -19,7 +19,7 @@ public class CalcApp {
     private int num2;
     private String opcode;
 
-    public String calc(int num1, String opcode, int num2) {
+    public String getCalc(int num1, String opcode, int num2) {
         this.num1 = num1;
         this.opcode = opcode;
         this.num2 = num2;
