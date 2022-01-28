@@ -16,13 +16,14 @@ package com.example.demo.google;
  * ================================
  * 2022-01-25        codejihyekim      최초 생성
  */
-public class GoogleApp {
+public class GoogleDTO {
     public static String WESITE = "Google";
     private String search;
 
-    public String google(String search) {
+    public String getSearch() {
+        return search;
+    }
+    public void setSearch(String search) {
         this.search = search;
-        String result = String.format("%s 을 검색한 결과입니다.",this.search);
-        return result;
     }
 }

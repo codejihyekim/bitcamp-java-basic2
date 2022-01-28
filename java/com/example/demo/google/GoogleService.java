@@ -1,7 +1,5 @@
 package com.example.demo.google;
 
-import java.util.Scanner;
-
 /**
  * packageName: com.example.demo.google
  * fileName        : GoogleDemo
@@ -14,9 +12,10 @@ import java.util.Scanner;
  * ================================
  * 2022-01-25        codejihyekim      최초 생성
  */
-public class GoogleDemo {
-    public String execute(String search) {
-        GoogleApp googleApp = new GoogleApp();
-        return googleApp.google(search);
+public class GoogleService {
+    public String getGoogle(GoogleDTO google) {
+
+        return String.format("%s 을 검색한 결과입니다.",google.getSearch());
     }
+
 }

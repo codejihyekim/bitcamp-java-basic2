@@ -1,11 +1,5 @@
 package com.example.demo.algorithm;
 
-import com.example.demo.bmi.BmiDemo;
-import com.example.demo.calc.CalcApp;
-import com.example.demo.calc.CalcDemo;
-import com.example.demo.grade.GradeDemo;
-import com.example.demo.login.LoginDemo;
-
 import java.util.Scanner;
 
 /**
@@ -27,21 +21,22 @@ public class DemoController2 {
         while(true) {
             System.out.println("[menu] 0.Exit\n" +
                     "[김지혜] 1. sort \t" +
-                    "2. graph \t"  +
-                    "[최은아] 3. hash \n"  +
-                    "4. stack \t"  +
-                    "5. brute force \t" +
-                    "6. dfs \t"  +
-                    "7. bfs \n"  +
-                    "8. dp \t"   +
-                    "9.  heap \n" +
-                    "10. bin search" +
-                    "11. greedy" +
-                    "12. queue");
+                    "2. graph \n"  +
+                    "[최은아] 3. stack  \t"  +
+                    "4. queue \t"  +
+                    "5. dfs \t" +
+                    "6. bfs \n"  +
+                    "[권솔이] 7. heap \t"  +
+                    "8. brute force \n"   +
+                    "[심민혜] 9.hash \t" +
+                    "10. dp \n" +
+                    "[하진희] 11. greedy \t" +
+                    "12. bin search \n");
 
             switch (scanner.next()) {
                 case "0" : return;
-                case "1" : break;
+                case "1" :
+                    break;
                 default:
                     System.out.println("Wrong Number"); break;
             }
