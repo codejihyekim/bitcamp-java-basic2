@@ -1,15 +1,15 @@
 package com.example.demo.controller;
 
-import com.example.demo.bmi.BmiDTO;
-import com.example.demo.bmi.BmiService;
-import com.example.demo.calc.CalcDTO;
-import com.example.demo.calc.CalcService;
-import com.example.demo.google.GoogleDTO;
-import com.example.demo.google.GoogleService;
-import com.example.demo.grade.GradeDTO;
-import com.example.demo.grade.GradeService;
-import com.example.demo.login.LoginDTO;
-import com.example.demo.login.LoginService;
+import com.example.demo.domain.BmiDTO;
+import com.example.demo.service.BmiService;
+import com.example.demo.domain.CalcDTO;
+import com.example.demo.service.CalcService;
+import com.example.demo.domain.GoogleDTO;
+import com.example.demo.service.GoogleService;
+import com.example.demo.domain.GradeDTO;
+import com.example.demo.service.GradeService;
+import com.example.demo.domain.LoginDTO;
+import com.example.demo.service.LoginService;
 
 import java.util.Scanner;
 
@@ -28,14 +28,14 @@ public class DemoController {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         BmiDTO bmi = new BmiDTO();
-        BmiService bmiService = new BmiService();
         CalcDTO calc = new CalcDTO();
-        CalcService calcService = new CalcService();
         GoogleDTO google = new GoogleDTO();
-        GoogleService googleService = new GoogleService();
         GradeDTO grade = new GradeDTO();
-        GradeService gradeService = new GradeService();
         LoginDTO login =new LoginDTO();
+        BmiService bmiService = new BmiService();
+        CalcService calcService = new CalcService();
+        GoogleService googleService = new GoogleService();
+        GradeService gradeService = new GradeService();
         LoginService loginService = new LoginService();
 
         while(true){

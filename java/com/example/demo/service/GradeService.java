@@ -1,4 +1,6 @@
-package com.example.demo.grade;
+package com.example.demo.service;
+
+import com.example.demo.domain.GradeDTO;
 
 /**
  * packageName: com.example.demo.grade
@@ -24,10 +26,9 @@ public class GradeService {
                 " * 총점: %d점 \n" +
                 " * 평균(정수): %d점\n" +
                 " * 합격여부: %s\n" +
-                " * #######################",grade.GRADE_TITLE,grade.getName(),grade.getKor(),
+                " * #######################",GradeDTO.GRADE_TITLE,grade.getName(),grade.getKor(),
                 grade.getEng(),grade.getMath(),total,avg,pass);
         }
-
 }
 
 

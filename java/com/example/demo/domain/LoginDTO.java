@@ -1,4 +1,4 @@
-package com.example.demo.login;
+package com.example.demo.domain;
 
 import java.sql.PreparedStatement;
 
@@ -18,7 +18,7 @@ public class LoginDTO {
     String id;
     String pw;
     String name;
-    static String PASSWORD = "abc";
+    public static String PASSWORD = "abc";
 
     public String getId() {
         return id;

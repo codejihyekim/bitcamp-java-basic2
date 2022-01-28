@@ -1,4 +1,6 @@
-package com.example.demo.bmi;
+package com.example.demo.service;
+
+import com.example.demo.domain.BmiDTO;
 
 /**
  * packageName: com.example.demo.bmi
@@ -13,6 +15,7 @@ package com.example.demo.bmi;
  */
 public class BmiService {
     public String getBmi(BmiDTO bmi) {
+
         return String.format("%s 의 BMI는 정상입니다.",bmi.getName());
     }
 }

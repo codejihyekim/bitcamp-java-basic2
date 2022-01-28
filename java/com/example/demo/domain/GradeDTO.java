@@ -1,4 +1,4 @@
-package com.example.demo.grade;
+package com.example.demo.domain;
 
 /**
  * packageName: com.example.demo.grade
@@ -59,6 +59,9 @@ public class GradeDTO {
     }
     public void setMath(int math) {
         this.math = math;
+    }
+    public String toString(){
+        return String.format("name %s kor %d eng %d math %d",name,kor,eng,math);
     }
 
 }

@@ -1,4 +1,7 @@
-package com.example.demo.calc;
+package com.example.demo.service;
+
+import com.example.demo.domain.CalcDTO;
+
 /**
  * packageName: com.example.demo.calc
  * fileName        : CalcDemo.java
