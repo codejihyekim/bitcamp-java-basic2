@@ -1,4 +1,4 @@
-package com.example.demo.member;
+package com.example.demo.train.hello.member;
 
 /**
  * packageName: com.example.demo.member

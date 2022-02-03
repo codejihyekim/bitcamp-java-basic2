@@ -1,4 +1,4 @@
-package com.example.demo.naver;
+package com.example.demo.train.hello.naver;
 
 import java.util.Scanner;
 

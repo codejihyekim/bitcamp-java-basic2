@@ -28,9 +28,13 @@ public class LoginService {
         /*
         String result = "";
         switch (login.getPw()) {
-            case "abc" : result = String.format(" %s 님의 비번 %s 가 맞습니다. 로그인 성공 ", login.getName(), login.getPw()); break;
-            default :  result = String.format(" %s 의 ID는 맞고, 비번 %s 가 틀립니다. 로그인 실패 ",login.getId(),login.getPw());break;
-
+            case "abc":
+                result = String.format(" %s 님의 비번 %s 가 맞습니다. 로그인 성공 ", login.getName(), login.getPw());
+                break;
+            default:
+                result = String.format(" %s 의 ID는 맞고, 비번 %s 가 틀립니다. 로그인 실패 ", login.getId(), login.getPw());
+                break;
+        }
         return result;
         */
 

@@ -39,9 +39,7 @@ public class DemoController {
         LoginService loginService = new LoginService();
 
         while(true){
-            System.out.println("메뉴 선택");
-            String menu = "0.Exit\n 1.BMI 2.CALC 3.SEARCH 4.GRADE 5.LOGIN";
-            System.out.println(menu);
+            System.out.println("메뉴 선택\n0.Exit 1.BMI 2.CALC 3.SEARCH 4.GRADE 5.LOGIN");
             String res = "";
 
             switch (scanner.next()) {

@@ -1,4 +1,4 @@
-package com.example.demo.hello;
+package com.example.demo.train.hello;
 /**
  * packageName: com.example.demo.calc
  * fileName        : HelloApp.java
