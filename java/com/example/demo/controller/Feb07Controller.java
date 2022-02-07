@@ -39,6 +39,7 @@ public class Feb07Controller {
                case "0" :
                    System.out.println("Exit");return;
                case "1" :
+                   service.dice(scanner);
                    break;
                case "2" :
                    break;

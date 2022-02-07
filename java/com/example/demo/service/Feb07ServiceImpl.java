@@ -18,7 +18,24 @@ public class Feb07ServiceImpl implements Feb07Service{
     @Override
     public void dice(Scanner scanner) {
 
-    }
+            System.out.println("첫번째 주사위");
+            int a = scanner.nextInt();
+            System.out.println("두번째 주사위");
+            int b = scanner.nextInt();
+            System.out.println("세번째 주사위");
+            int c = scanner.nextInt();
+
+            if (a==b&&b==c){
+                System.out.println(10000+a*1000+"원");
+            }else if (a==b||a==c){
+                System.out.println(1000+a*100+"원");
+            }else if(b == c){
+                System.out.println(1000+b*100+"원");
+            }else
+                System.out.println(Math.max(Math.max(a,b),c)*100+"원");
+            }
+
+
 
     @Override
     public void rps(Scanner scanner) {
