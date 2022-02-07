@@ -16,10 +16,10 @@ package com.example.demo.domain;
  * 2022-01-25        codejihyekim      최초 생성
  */
 public class BmiDTO {
-    public static String WEBSITE = "BMI";
-    private static String name;
-    private static double height;
-    private static double weight;
+    public static String WEBSITE = "BMI 구하기";
+    private  String name;
+    private  double height;
+    private  double weight;
 
     public String getName(){
         return name;
